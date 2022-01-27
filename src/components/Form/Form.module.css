@@ -1,0 +1,38 @@
+.form {
+  padding: 30px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input {
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border-radius: 3px;
+  border: 2px solid black;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.label:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: lightpink;
+  color: black;
+  border-radius: 5px;
+}
